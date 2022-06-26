@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Mishka</title>
+  <link rel="icon" href="img/favicon.ico">
+</head>
+<body>
+    <section class="header">
+        <img class="header__logo" src="img/logo.svg" alt="Mishka">
+            <nav class="header__menu menu-list">
+            <ul class="menu-list">
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Каталог товаров</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Вязание на заказ</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">
+                        <img class="menu-list__link search" src="img/search.svg" alt="search">
+                    </a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">
+                        <img class="menu-list__link cart" src="img/cart.svg" alt="cart">
+                    Корзина: пока пуста
+                    </a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Новые поступления</a>
+                </li>
+                <li class="menu-list__item">
+                    <a href="#" class="menu-list__link">Распродажа</a>
+                </li>
+            </ul>
+        </nav>
+        <p class="header__text">Бесплатная доставка по России</p>
+        <h1 class="header__title">Каталог товаров</h1>
+    </section>
+    <section class="assortment">
+        <div class="assortment__product">
+            <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                        srcset="img/bunny-desktop@1x.webp 1x, img/bunny-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/bunny-tablet@1x.webp 1x, img/bunny-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/bunny-mobile@1x.webp 1x, img/bunny-mobile@2x.webp 2x">
+                <source media="(min-width: 1200px)" srcset="img/bunny-desktop@1x.jpg 1x, img/bunny-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/bunny-tablet@1x.jpg 1x, img/bunny-tablet@2x.jpg 2x">
+                <img class="assortment__product__pic" src="img/bunny-mobile@1x.jpg" srcset="img/bunny-mobile@2x.jpg 2x" width="800" height="260" alt="bunny">
+              </picture>
+            <div class="assortment__product__title">Зайчик-попрыгайчик</div>
+            <div class="assortment__product__text">Рост 30 см, вес 200 г</div>
+            <div class="assortment__product__price">1 200 руб.</div>
+            <img class="assortment__product__cart" src="img/cart.svg" alt="cart">
+        </div>
+        <div class="assortment__product">
+            <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                        srcset="img/laundry-basket-desktop@1x.webp 1x, img/laundry-basket-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/laundry-basket-tablet@1x.webp 1x, img/laundry-basket-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/laundry-basket-mobile@1x.webp 1x, img/laundry-basket-mobile@2x.webp 2x">
+                <source media="(min-width: 1200px)" srcset="img/laundry-basket-desktop@1x.jpg 1x, img/laundry-basket-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/laundry-basket-tablet@1x.jpg 1x, img/laundry-basket-tablet@2x.jpg 2x">
+                <img class="assortment__product__pic" src="img/laundry-basket-mobile@1x.jpg" srcset="img/laundry-basket-mobile@2x.jpg 2x" width="800" height="260" alt="laundry-basket">
+              </picture>
+            <div class="assortment__product__title">Корзинка для белья</div>
+            <div class="assortment__product__text">Диаметр 15 см, высота 10 см</div>
+            <div class="assortment__product__price">690 руб.</div>
+            <img class="assortment__product__cart" src="img/cart.svg" alt="cart">
+        </div>
+        <div class="assortment__product">
+            <picture>
+                <source type="image/webp" media="(min-width: 1200px)"
+                        srcset="img/toy-basket-desktop@1x.webp 1x, img/toy-basket-desktop@2x.webp 2x">
+                <source type="image/webp" media="(min-width: 768px)"
+                        srcset="img/toy-basket-tablet@1x.webp 1x, img/toy-basket-tablet@2x.webp 2x">
+                <source type="image/webp" srcset="img/toy-basket-mobile@1x.webp 1x, img/toy-basket-mobile@2x.webp 2x">
+                <source media="(min-width: 1200px)" srcset="img/toy-basket-desktop@1x.jpg 1x, img/toy-basket-desktop@2x.jpg 2x">
+                <source media="(min-width: 768px)" srcset="img/toy-basket-tablet@1x.jpg 1x, img/toy-basket-tablet@2x.jpg 2x">
+                <img class="assortment__product__pic" src="img/toy-basket-mobile@1x.jpg" srcset="img/toy-basket-mobile@2x.jpg 2x" width="800" height="260" alt="toy-basket">
+              </picture>
+            <div class="assortment__product__title">Большая корзинка для игрушек</div>
+            <div class="assortment__product__text">Диаметр 30 см, высота 30 см</div>
+            <div class="assortment__product__price">1 500 руб.</div>
+            <img class="assortment__product__cart" src="img/cart.svg" alt="cart">
+        </div>
+    </section>
+    <section class="video">
+        <img class="video__frame" src="img/videoback.svg" alt="frame">
+        <picture>
+            <source type="image/webp" media="(min-width: 1200px)"
+                    srcset="img/video-desktop@1x.webp 1x, img/video-desktop@2x.webp 2x">
+            <source type="image/webp" media="(min-width: 768px)"
+                    srcset="img/video-tablet@1x.webp 1x, img/video-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/video-mobile@1x.webp 1x, img/video-mobile@2x.webp 2x">
+            <source media="(min-width: 1200px)" srcset="img/video-desktop@1x.jpg 1x, img/video-desktop@2x.jpg 2x">
+            <source media="(min-width: 768px)" srcset="img/video-tablet@1x.jpg 1x, img/video-tablet@2x.jpg 2x">
+            <img class="video__pic" src="img/video-mobile@1x.jpg" srcset="img/video-mobile@2x.jpg 2x" width="800" height="260" alt="video">
+          </picture>
+        <img class="video__play" src="img/play.svg" alt="play">
+        <img class="video__icon" src="img/video.svg" alt="icon">
+        <h2 class="video__title">Процесс производства</h2>
+        <div class="video__text">По просьбам наших любимых фолловеров 
+            мы сняли для вас подробное видео о том, как появляются наши товары.</div>
+        <a href="#" class="video__button">Сделать заказ</a>
+        </section>
+    <footer class="main-footer">
+        <img class="main-footer__logo" src="img/logo-footer.svg" alt="logo-footer">
+        <ul class="main-footer__socmedia social-list">
+          <li class="social-list__item">
+            <a href="#" class="social-link"><span class="visually-hidden">VKontakte</span>
+              <img class="social-link__svg" src="img/vk.svg" alt="VK">
+            </a>
+          </li>
+        </ul>
+        <div class="main-footer__author author-html">
+          <div class="author-html__text">Разработано</div>
+          <img class="author-html__pic" src="img/htmlacademy.svg" alt="htmlacademy">
+        </div>
+      </footer>
+</body>
+</html>
